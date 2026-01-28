@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: multi-client
+server:
+  port: 8081
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/messagingdb
